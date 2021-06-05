@@ -1,0 +1,33 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    background-color:cornflowerblue;
+    color: chartreuse;
+    text-transform: uppercase;
+}
+h1 {
+    margin-bottom: 30px;
+    font-size: 3rem;
+}
+.wall {
+    width: 30px;
+    height: 30px;
+    background-color: darkmagenta;
+}
+.space,
+.start,
+.finish {
+    height: 30px;
+    width: 30px;
+}
+.start {
+    background-color: chartreuse;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    position: relative;
+    top: 0px;
+    left: 0px;
+    border-radius: 50%;
+}
+.divLinha {
+    justify-content: center;
+}
